@@ -78,4 +78,4 @@ The `dist/` folder is a self-contained static site. Deploy to any static host:
 
 ## 📄 Licence
 
-MIT © Alex Johnson
+MIT © Saud Al Zakwani

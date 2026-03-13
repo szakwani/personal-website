@@ -1,4 +1,4 @@
-import { MapPin, Mail, Calendar, User } from 'lucide-react';
+import { MapPin, Mail, Calendar } from 'lucide-react';
 import { personalInfo, aboutContent } from '../data/portfolio';
 
 export default function About() {
@@ -26,11 +26,11 @@ export default function About() {
 
               {/* Avatar placeholder */}
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-primary-800/50 to-dark-700 border-2 border-primary-600/30 flex items-center justify-center overflow-hidden">
-                <div className="text-center">
-                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary-600 to-blue-500 flex items-center justify-center mx-auto mb-2">
-                    <User size={64} className="text-white/80" />
-                  </div>
-                </div>
+                <img
+                  src="/avatar.jpg"
+                  alt="Saud Al Zakwani"
+                  className="w-full h-full object-cover"
+                />
 
                 {/* Floating badge */}
                 <div className="absolute bottom-6 right-6 bg-dark-800 border border-dark-600 rounded-xl px-3 py-2 shadow-lg">
@@ -43,12 +43,12 @@ export default function About() {
 
               {/* Stat cards */}
               <div className="absolute -top-4 -left-4 bg-dark-800 border border-dark-600 rounded-xl p-3 shadow-xl">
-                <div className="text-2xl font-bold text-primary-400">5+</div>
+                <div className="text-2xl font-bold text-primary-400">15+</div>
                 <div className="text-xs text-dark-300">Years Exp.</div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-dark-800 border border-dark-600 rounded-xl p-3 shadow-xl">
-                <div className="text-2xl font-bold text-primary-400">40+</div>
-                <div className="text-xs text-dark-300">Projects</div>
+                <div className="text-2xl font-bold text-primary-400">50+</div>
+                <div className="text-xs text-dark-300">Initiatives</div>
               </div>
             </div>
           </div>
@@ -56,8 +56,8 @@ export default function About() {
           {/* Text Content */}
           <div>
             <h3 className="text-2xl font-bold text-white mb-6">
-              Full Stack Developer &{' '}
-              <span className="gradient-text">Problem Solver</span>
+              Digital Transformation Leader &{' '}
+              <span className="gradient-text">AI Advocate</span>
             </h3>
 
             <div className="space-y-4 mb-8">
@@ -94,7 +94,7 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-dark-400 text-xs">Experience</div>
-                  <div className="text-white font-medium">5+ Years</div>
+                  <div className="text-white font-medium">15+ Years</div>
                 </div>
               </div>
               <div className="flex items-center gap-3 text-sm">
