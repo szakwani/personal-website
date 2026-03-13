@@ -18,7 +18,7 @@ export default function Footer() {
               <div className="w-7 h-7 bg-primary-600 rounded-md flex items-center justify-center">
                 <Code2 size={15} />
               </div>
-              <span>Alex.dev</span>
+              <span>Saud.dev</span>
             </div>
             <p className="text-dark-300 text-sm text-center md:text-left">
               Building exceptional digital experiences.

@@ -55,7 +55,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
               <Code2 size={18} />
             </div>
-            <span>Alex.dev</span>
+            <span>Saud.dev</span>
           </a>
 
           {/* Desktop Nav */}
@@ -84,10 +84,10 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href="mailto:alex@example.com"
+              href="mailto:saud@szakwani.com"
               className="btn-primary text-sm py-2 px-5"
             >
-              Hire Me
+              Get in Touch
             </a>
           </div>
 
@@ -127,10 +127,10 @@ export default function Navbar() {
               })}
               <li className="pt-2">
                 <a
-                  href="mailto:alex@example.com"
+                  href="mailto:saud@szakwani.com"
                   className="btn-primary w-full justify-center text-sm py-3"
                 >
-                  Hire Me
+                  Get in Touch
                 </a>
               </li>
             </ul>

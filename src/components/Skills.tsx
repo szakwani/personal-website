@@ -51,12 +51,13 @@ export default function Skills() {
 
         {/* Additional tech tags */}
         <div className="mt-12 text-center">
-          <p className="text-dark-400 text-sm mb-5">Also familiar with</p>
+          <p className="text-dark-400 text-sm mb-5">Also experienced with</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Webpack', 'Vite', 'Storybook', 'Tailwind CSS', 'Prisma',
-              'tRPC', 'Zustand', 'React Query', 'Socket.io', 'Nginx',
-              'GitHub Actions', 'Sentry', 'Datadog',
+              'Power BI', 'Tableau', 'Azure', 'SAP', 'Oracle ERP',
+              'RPA (Robotic Process Automation)', 'IoT Platforms', 'SQL / NoSQL',
+              'Scrum / Kanban', 'ITIL', 'ISO 27001', 'Digital Twin',
+              'Predictive Maintenance',
             ].map((tech) => (
               <span key={tech} className="tag">
                 {tech}
