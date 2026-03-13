@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import LinkedInPosts from './components/LinkedInPosts';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
@@ -14,7 +15,7 @@ export default function App() {
   useIntersectionObserver();
 
   useEffect(() => {
-    document.title = 'Alex Johnson | Full Stack Developer';
+    document.title = 'Saud Al Zakwani | VP, Information Digital Solutions & CI';
   }, []);
 
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <LinkedInPosts />
         <About />
         <Experience />
         <Skills />

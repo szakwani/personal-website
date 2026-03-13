@@ -54,8 +54,8 @@ export default function Contact() {
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-primary-600 to-blue-400 rounded-full mx-auto mb-6" />
           <p className="text-dark-300 max-w-lg mx-auto text-balance">
-            Have a project in mind or want to collaborate? I'd love to hear from
-            you. Send me a message and I'll get back to you within 24 hours.
+            Have a project, collaboration, or speaking opportunity? I'd love to
+            hear from you. Reach out and I'll get back to you within 24 hours.
           </p>
         </div>
 

@@ -43,11 +43,11 @@ export default function About() {
 
               {/* Stat cards */}
               <div className="absolute -top-4 -left-4 bg-dark-800 border border-dark-600 rounded-xl p-3 shadow-xl">
-                <div className="text-2xl font-bold text-primary-400">5+</div>
+                <div className="text-2xl font-bold text-primary-400">15+</div>
                 <div className="text-xs text-dark-300">Years Exp.</div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-dark-800 border border-dark-600 rounded-xl p-3 shadow-xl">
-                <div className="text-2xl font-bold text-primary-400">40+</div>
+                <div className="text-2xl font-bold text-primary-400">30+</div>
                 <div className="text-xs text-dark-300">Projects</div>
               </div>
             </div>
@@ -56,8 +56,8 @@ export default function About() {
           {/* Text Content */}
           <div>
             <h3 className="text-2xl font-bold text-white mb-6">
-              Full Stack Developer &{' '}
-              <span className="gradient-text">Problem Solver</span>
+              Technology Executive &{' '}
+              <span className="gradient-text">Digital Transformation Leader</span>
             </h3>
 
             <div className="space-y-4 mb-8">
@@ -94,7 +94,7 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-dark-400 text-xs">Experience</div>
-                  <div className="text-white font-medium">5+ Years</div>
+                  <div className="text-white font-medium">15+ Years</div>
                 </div>
               </div>
               <div className="flex items-center gap-3 text-sm">
