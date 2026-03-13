@@ -54,9 +54,9 @@ export default function Skills() {
           <p className="text-dark-400 text-sm mb-5">Also familiar with</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Webpack', 'Vite', 'Storybook', 'Tailwind CSS', 'Prisma',
-              'tRPC', 'Zustand', 'React Query', 'Socket.io', 'Nginx',
-              'GitHub Actions', 'Sentry', 'Datadog',
+              'Tableau', 'Power BI', 'Apache Spark', 'Hadoop', 'TensorFlow',
+              'PyTorch', 'Databricks', 'Snowflake', 'SAP', 'Microsoft Azure',
+              'Digital Twins', 'RPA / Automation', 'Agile / SAFe',
             ].map((tech) => (
               <span key={tech} className="tag">
                 {tech}

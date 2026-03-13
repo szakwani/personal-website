@@ -3,6 +3,7 @@ import { Menu, X, Code2 } from 'lucide-react';
 import { useScrollspy } from '../hooks';
 
 const navLinks = [
+  { label: 'Posts', href: '#linkedin-posts' },
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
@@ -14,7 +15,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const activeSection = useScrollspy(
-    ['about', 'experience', 'skills', 'projects', 'contact'],
+    ['linkedin-posts', 'about', 'experience', 'skills', 'projects', 'contact'],
     120
   );
 
@@ -55,7 +56,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
               <Code2 size={18} />
             </div>
-            <span>Alex.dev</span>
+            <span>Saud.dev</span>
           </a>
 
           {/* Desktop Nav */}
@@ -84,10 +85,10 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href="mailto:alex@example.com"
+              href="mailto:saud@szakwani.com"
               className="btn-primary text-sm py-2 px-5"
             >
-              Hire Me
+              Connect
             </a>
           </div>
 
@@ -127,10 +128,10 @@ export default function Navbar() {
               })}
               <li className="pt-2">
                 <a
-                  href="mailto:alex@example.com"
+                  href="mailto:saud@szakwani.com"
                   className="btn-primary w-full justify-center text-sm py-3"
                 >
-                  Hire Me
+                  Connect
                 </a>
               </li>
             </ul>

@@ -14,10 +14,10 @@ export default function Projects() {
         {/* Section Header */}
         <div className="text-center mb-10">
           <p className="text-primary-400 text-sm font-semibold tracking-widest uppercase mb-3">
-            What I've built
+            Key initiatives
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Featured <span className="gradient-text">Projects</span>
+            Featured <span className="gradient-text">Initiatives</span>
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-primary-600 to-blue-400 rounded-full mx-auto" />
         </div>
@@ -121,7 +121,7 @@ export default function Projects() {
             Want to see more? Check out my GitHub profile.
           </p>
           <a
-            href="https://github.com"
+            href="https://github.com/szakwani"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline inline-flex"
